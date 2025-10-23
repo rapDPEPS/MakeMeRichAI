@@ -1,0 +1,29 @@
+[
+  {
+    "title": "AI Newsletter Monetization Kit",
+    "description": "A swipe-ready pack with 12 monetized email sequences, 3 lead magnets, and copy prompts to launch a newsletter in days.",
+    "commission": "60%",
+    "price": "$79",
+    "payout": "$47.40",
+    "cta": "Promote this kit",
+    "link": "https://example.com/newsletter-kit"
+  },
+  {
+    "title": "Notion Cashflow Dashboard",
+    "description": "A premium Notion template that helps creators track expenses, affiliate payouts, and recurring revenue streams.",
+    "commission": "50%",
+    "price": "$39",
+    "payout": "$19.50",
+    "cta": "Share this template",
+    "link": "https://example.com/notion-dashboard"
+  },
+  {
+    "title": "Micro-Course Launch Playbook",
+    "description": "Step-by-step micro-course launch system with scripts, slide decks, and automations to pre-sell before building.",
+    "commission": "40%",
+    "price": "$149",
+    "payout": "$59.60",
+    "cta": "Start earning",
+    "link": "https://example.com/launch-playbook"
+  }
+]
