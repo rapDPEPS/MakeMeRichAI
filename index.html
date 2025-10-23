@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MakeMeRichAI – Passive Profit Automations</title>
+    <meta
+      name="description"
+      content="Launch a passive income funnel in days with AI-powered automations, ready-to-promote offers, and conversion assets."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="icon" type="image/svg+xml" href="assets/images/hero-placeholder.svg" />
+  </head>
+  <body>
+    <noscript>
+      <div style="background:#fde68a;padding:1rem;text-align:center;font-family:Inter,system-ui,sans-serif;">This funnel works best with JavaScript enabled. Turn it on to load automations and revenue projections.</div>
+    </noscript>
+    <header>
+      <nav>
+        <div class="logo">MakeMeRichAI</div>
+        <ul>
+          <li><a href="#benefits">Benefits</a></li>
+          <li><a href="#offers">Offers</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+        <a class="button secondary" href="#waitlist">Join Waitlist</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div>
+          <span class="badge">Done-for-you automations</span>
+          <h1>Launch a passive income machine powered by AI</h1>
+          <p class="lead">
+            MakeMeRichAI gives you the tools, templates, and automations to build revenue-producing funnels in days. Capture
+            leads, plug in affiliate offers, and watch the dashboard track your cashflow around the clock.
+          </p>
+          <div class="hero-cta">
+            <a class="button" href="#waitlist">Start building my funnel</a>
+            <a class="button secondary" href="#calculator">Preview earnings</a>
+          </div>
+          <p class="muted">Get the <a href="content/traffic-playbook.md">Traffic Playbook</a> to start driving targeted visitors today.</p>
+          <div class="metrics">
+            <div class="metric-card">
+              <h3>$48K</h3>
+              <span>Average annual revenue launched by early users</span>
+            </div>
+            <div class="metric-card">
+              <h3>12 hrs</h3>
+              <span>From idea to monetized funnel using our assets</span>
+            </div>
+            <div class="metric-card">
+              <h3>50%+</h3>
+              <span>Affiliate commissions from curated offer library</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="assets/images/hero-placeholder.svg" alt="Dashboard preview" />
+        </div>
+      </section>
+
+      <section id="benefits">
+        <div class="section-title">
+          <h2>Everything you need to sell while you sleep</h2>
+          <p>
+            We combined AI-assisted copy, plug-and-play automations, and vetted digital products so you can ship a profitable
+            funnel without hiring a team.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>AI copy + automations</h3>
+            <p>
+              Prebuilt workflows generate persuasive sales copy, schedule social posts, and sync with your email platform so your
+              funnel keeps converting.
+            </p>
+          </article>
+          <article class="card">
+            <h3>High-paying affiliate offers</h3>
+            <p>
+              Promote digital products with 40–70% commissions. Swap offers in seconds using the JSON offer library and keep your
+              funnel fresh.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Analytics that prove ROI</h3>
+            <p>
+              Track subscriber growth, conversion rates, and payouts in one dashboard so you always know which funnel is printing
+              the most cash.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="offers">
+        <div class="section-title">
+          <h2>Plug in ready-to-promote digital products</h2>
+          <p>Swap these for your own affiliate picks or digital assets. The offer cards update automatically from JSON.</p>
+        </div>
+        <div class="grid" data-offers>
+          <article class="card offer-card">
+            <h3>Loading offers...</h3>
+            <p>Give it a sec while we sync the latest products.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="calculator">
+        <div class="section-title">
+          <h2>Project your automated income</h2>
+          <p>
+            Use the sliders to calculate how much passive profit you can generate by sending consistent traffic to your funnel.
+          </p>
+        </div>
+        <div class="calculator">
+          <form data-calculator-form>
+            <label>
+              Monthly visitors
+              <input type="range" name="visitors" min="100" max="20000" value="5000" step="100" />
+              <span data-range-output="visitors"><strong>5,000</strong> visitors</span>
+            </label>
+            <label>
+              Lead magnet opt-in rate
+              <input type="range" name="optInRate" min="5" max="80" value="35" />
+              <span data-range-output="optInRate"><strong>35%</strong> opt-in rate</span>
+            </label>
+            <label>
+              Offer conversion rate
+              <input type="range" name="conversionRate" min="1" max="20" value="6" />
+              <span data-range-output="conversionRate"><strong>6%</strong> conversion rate</span>
+            </label>
+            <label>
+              Average commission per sale ($)
+              <input type="range" name="averageCommission" min="10" max="400" value="79" />
+              <span data-range-output="averageCommission"><strong>$79</strong> per sale</span>
+            </label>
+          </form>
+          <div class="summary">
+            <p>Projected annual profit</p>
+            <output data-calculator-output>$0</output>
+            <ul data-calculator-breakdown></ul>
+            <p class="muted">
+              Show this to partners or sponsors to demonstrate earning potential. Adjust the defaults to match your funnel.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-title">
+          <h2>Real creators, automated income</h2>
+          <p>See how other builders are using MakeMeRichAI to monetize audiences without launching full-scale products.</p>
+        </div>
+        <div class="testimonials">
+          <div class="testimonial">
+            <p>
+              "I packaged the included lead magnet into a quiz funnel and hit $3,400 in affiliate payouts during my first month. I
+              still haven’t built the full course!"
+            </p>
+            <span>— Casey, Creator Educator</span>
+          </div>
+          <div class="testimonial">
+            <p>
+              "The templates let me rebuild my newsletter onboarding sequence in a weekend. It's now my highest ROI channel, and
+              the calculator makes sponsor pitches effortless."
+            </p>
+            <span>— Lena, Newsletter Publisher</span>
+          </div>
+          <div class="testimonial">
+            <p>
+              "As an agency owner, the DFY automations are a goldmine. I resell the system as a done-for-you service and keep a
+              recurring retainer."
+            </p>
+            <span>— Marco, Agency Founder</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing">
+        <div class="section-title">
+          <h2>Choose your launch plan</h2>
+          <p>Every plan includes lifetime updates, white-label rights on templates, and the revenue calculator toolkit.</p>
+        </div>
+        <div class="pricing">
+          <article class="plan">
+            <h3>Solo Creator</h3>
+            <p class="price">$149</p>
+            <p>Perfect for newsletters, niche blogs, or micro-communities.</p>
+            <ul>
+              <li>AI sales copy generator prompts</li>
+              <li>Newsletter &amp; social swipe files</li>
+              <li>3 plug-and-play automation recipes</li>
+            </ul>
+            <a class="button secondary" href="https://example.com/checkout-solo">Grab Solo</a>
+          </article>
+          <article class="plan popular">
+            <h3>Growth Operator</h3>
+            <p class="price">$329</p>
+            <p>Scale with advanced automations and done-for-you assets.</p>
+            <ul>
+              <li>Everything in Solo</li>
+              <li>White-label Notion cashflow dashboard</li>
+              <li>DFY affiliate offer library updates</li>
+              <li>Monthly group implementation call</li>
+            </ul>
+            <a class="button" href="https://example.com/checkout-growth">Upgrade to Growth</a>
+          </article>
+          <article class="plan">
+            <h3>Agency Partner</h3>
+            <p class="price">$749</p>
+            <p>Resell our automations and keep 100% of the client revenue.</p>
+            <ul>
+              <li>Client onboarding portal + SOPs</li>
+              <li>Unlimited sub-accounts</li>
+              <li>Priority support + strategy reviews</li>
+            </ul>
+            <a class="button secondary" href="https://example.com/checkout-agency">Book a demo</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="faq">
+        <div class="section-title">
+          <h2>Frequently asked questions</h2>
+          <p>If you're wondering how this turns into passive income, start here.</p>
+        </div>
+        <div class="faq">
+          <details open>
+            <summary>Do I need technical skills to set this up?</summary>
+            <p>
+              Nope. The landing page is fully built, the automations plug into Zapier/Make, and you can host everything on a free
+              static site. The onboarding checklist walks you through each step.
+            </p>
+          </details>
+          <details>
+            <summary>How fast can I start earning?</summary>
+            <p>
+              Most creators launch within 7 days. Swap in your offers, connect the email capture form, and send traffic. The
+              calculator helps you forecast payouts so you can set realistic goals.
+            </p>
+          </details>
+          <details>
+            <summary>Can I resell these assets to clients?</summary>
+            <p>
+              Yes! The Growth and Agency plans include white-label rights. Bundle the templates as a service and charge a setup
+              fee plus monthly maintenance.
+            </p>
+          </details>
+          <details>
+            <summary>What if I already have an audience?</summary>
+            <p>
+              Perfect. Import your existing subscribers and plug them into the nurture sequence. The email swipes and lead magnet
+              make it easy to re-engage dormant subscribers.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <section id="waitlist" class="newsletter">
+        <h2>Join the waitlist for the next cohort</h2>
+        <p>Spots open monthly. Add your email to receive launch invites, affiliate promos, and monetization teardowns.</p>
+        <form data-waitlist-form>
+          <input type="email" name="email" placeholder="you@domain.com" required />
+          <button type="submit">Join the Waitlist</button>
+        </form>
+        <small>
+          You'll also get the "3 Evergreen Funnels" lead magnet. Unsubscribe anytime. We respect your inbox (and your hustle).
+        </small>
+      </section>
+
+      <footer class="footer">
+        <p>© 2024 MakeMeRichAI. Crafted with intent to multiply your income streams.</p>
+        <p>
+          Need help launching? <a href="mailto:hello@makemerich.ai">Book a strategy call</a> or download the
+          <a href="lead-magnet-outline.md">lead magnet outline</a>.
+        </p>
+      </footer>
+    </main>
+
+    <script src="assets/js/app.js" type="module"></script>
+  </body>
+</html>
